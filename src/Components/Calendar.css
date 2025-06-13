@@ -1,0 +1,160 @@
+.calendar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: #212529;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark .calendar-container {
+  color: #f0f0f0;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.calendar-header button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 10px;
+  color: inherit;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-left: none;
+}
+
+body.dark .calendar-grid {
+  border-color: #444;
+}
+
+.day-name {
+  background-color: #f8f9fa;
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 10px;
+  border-top: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  color: #333;
+}
+
+.weekend-name {
+  background-color: #ffeef0;
+  color: #b4002a;
+}
+
+body.dark .day-name {
+  background-color: #2a2a2a;
+  color: #ddd;
+  border-color: #444;
+}
+
+body.dark .weekend-name {
+  background-color: #3a2a2a;
+  color: #ffb3b3;
+}
+
+.calendar-cell {
+  min-height: 120px;
+  padding: 6px;
+  border-top: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  background-color: #fff;
+  vertical-align: top;
+  font-size: 12px;
+  position: relative;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.weekend-cell {
+  background-color: #fffcfc;
+}
+
+body.dark .calendar-cell {
+  background-color: #1e1e1e;
+  border-color: #444;
+  color: #eaeaea;
+}
+
+body.dark .weekend-cell {
+  background-color: #242020;
+}
+
+.today {
+  background-color: #e9f4ff;
+  outline: 2px #1971c2;
+}
+
+body.dark .today {
+  background-color: #203447;
+  outline: 2px #3399ff;
+}
+
+.date-number {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.tasks-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.task-item {
+  font-size: 11px;
+  background-color: #ffe8cc;
+  color: #6c4400;
+  padding: 2px 6px;
+  border-radius: 10px;
+  margin-bottom: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #ffc078;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.task-item.done {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.task-status {
+  font-size: 10px;
+  color: #6c757d;
+  margin-left: 5px;
+}
+
+body.dark .task-item {
+  background-color: #3a2c1a;
+  color: #f0d6ae;
+  border: 1px solid #a97b3d;
+}
+
+.task-item.task-own {
+  color: #0977c0;
+}
+
+.task-item.task-other {
+  color: #008b46;
+}
