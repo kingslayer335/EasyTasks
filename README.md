@@ -32,5 +32,7 @@ Aplikacja dziala w systemie Github Pages pod linkiem: [https://kingslayer335.git
 ## Autorzy
 
 Piotr Artym
+
 Przemysław Kierasiński
+
 Dorian Kozłowski
