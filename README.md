@@ -1,8 +1,9 @@
 # EasyTasks
 
-EasyTasks to prosty projekt do zarządzania zadaniami stworzony na przedmiot "Projektowanie Interfejsów Użytkownika".
-Zbudowany w oparciu o React i Vite. Zapewnia nowoczesny i przejrzysty interfejs do efektywnego zarządzania codziennymi zadaniami.
-
+EasyTasks to prosty projekt do zarządzania zadaniami stworzony na przedmiot "Projektowanie Interfejsów Użytkownika".<br>
+Zbudowany w oparciu o React i Vite.<br>
+Zapewnia nowoczesny i przejrzysty interfejs do efektywnego zarządzania codziennymi zadaniami.<br><br>
+Aplikacja dziala w systemie Github Pages pod linkiem: [https://kingslayer335.github.io/EasyTasks/](https://kingslayer335.github.io/EasyTasks/)
 ## Wykorzystane technologie
 
 - [React](https://react.dev/) wersja 19.1.0 - interfejs użytkownika
@@ -28,9 +29,8 @@ Zbudowany w oparciu o React i Vite. Zapewnia nowoczesny i przejrzysty interfejs 
    ```
    Aplikacja będzie dostępna pod adresem [http://localhost:5173](http://localhost:5173).
 
-4. **Autorzy:**
-   ```
-      Piotr Artym
-      Przemysław Kierasiński
-      Dorian Kozłowski
-      ```
+## Autorzy
+
+Piotr Artym
+Przemysław Kierasiński
+Dorian Kozłowski
