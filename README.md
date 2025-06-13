@@ -1,6 +1,7 @@
 # EasyTasks
 
-EasyTasks to prosta aplikacja internetowa do zarządzania zadaniami, zbudowana w oparciu o React i Vite. Zapewnia nowoczesny i przejrzysty interfejs do efektywnego zarządzania codziennymi zadaniami.
+EasyTasks to prosty projekt do zarządzania zadaniami stworzony na przedmiot "Projektowanie Interfejsów Użytkownika".
+Zbudowany w oparciu o React i Vite. Zapewnia nowoczesny i przejrzysty interfejs do efektywnego zarządzania codziennymi zadaniami.
 
 ## Wykorzystane technologie
 
@@ -26,3 +27,10 @@ EasyTasks to prosta aplikacja internetowa do zarządzania zadaniami, zbudowana w
    npm run dev
    ```
    Aplikacja będzie dostępna pod adresem [http://localhost:5173](http://localhost:5173).
+
+4. **Autorzy:**
+   ```
+      Piotr Artym
+      Przemysław Kierasiński
+      Dorian Kozłowski
+      ```
